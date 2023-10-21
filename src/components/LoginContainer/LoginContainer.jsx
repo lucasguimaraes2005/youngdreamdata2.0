@@ -3,14 +3,8 @@ import { useNavigate } from "react-router-dom";
 import { toast } from 'react-toastify';
 
 
-const users = [
-    { username: 'admin', password: 'admin123'},
-    { username: 'lucas', password: 'lucas123'},
-    { username: 'mateus', password: 'mateus123'},
-    { username: 'renan', password: 'renan123'},
-  ]
 
-export const LoginContainer = () => {
+export const LoginContainer = ({users}) => {
 
     const navigate = useNavigate()
     const [username, setUsername] = useState('');

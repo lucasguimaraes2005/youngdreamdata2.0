@@ -1,9 +1,9 @@
 import { LoginContainer } from "../components/LoginContainer/LoginContainer"
 
-export const LoginPage = () => {
+export const LoginPage = ({users}) => {
     return (
         <>
-            <LoginContainer />
+            <LoginContainer users={users}/>
         </>
     )
 }
