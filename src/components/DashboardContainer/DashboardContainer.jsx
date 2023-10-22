@@ -3,7 +3,9 @@ export const DashboardContainer = ({students, onDelete}) => {
 
 
     return (
-            <ul>
+            <>
+            <div className="dashboardcontainer">
+                <ul>
                 {students.map((student, index) => (
                     <li key={index}>
                         <h2>{student.name}</h2>
@@ -16,5 +18,7 @@ export const DashboardContainer = ({students, onDelete}) => {
                     </li>
                 ))}
             </ul>
+            </div>
+            </>
     )
 }

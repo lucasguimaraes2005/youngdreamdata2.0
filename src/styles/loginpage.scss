@@ -1,0 +1,70 @@
+.logincontainer {
+    height: 100%;
+    display: flex;
+    align-items: row;
+
+    #imgsection {
+        background-image: url('https://media.discordapp.net/attachments/1145484562353356810/1165702284848660550/Design_sem_nome_1.png?ex=6547cfda&is=65355ada&hm=bbd45194fa1c922fc1f6f0f200b52c2cdaec6c73c51ac414f8976efce563748f&=&width=417&height=556');
+    background-size: cover;
+    }
+
+    section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+        margin: 0;
+        padding: 0;
+        height: 750px;
+        background-color: var(--color-3);
+
+        form {
+            display: flex;
+            flex-direction: column;
+            height: 30%;
+            gap: 15px;
+            align-items: center;
+
+            padding: 30px;
+            border-radius: 7px;
+
+
+            h1 {
+                font-family: var(--font-family);
+                font-size: 30px;
+                font-weight: bold;
+                color: white;
+            }
+
+            input {
+                border: none;
+                background-color: white;
+                padding: 15px 20px;
+                border-radius: 10px;
+}
+            button {
+                padding: 15px 20px;
+                background-color: var(--color-1);
+                color: white;
+                border: none;
+                border-radius: 10px;
+                cursor: pointer;
+                width: 100%;
+
+                &:hover {
+                    background-color: #754D34;
+                }
+}
+        }
+
+
+
+        img {
+            height: 30%;
+            margin: 0;
+        }
+    }
+}
+
+

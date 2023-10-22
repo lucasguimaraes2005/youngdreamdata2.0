@@ -3,7 +3,9 @@ import { RegisterContainer } from "../components/RegisterContainer/RegisterConta
 export const RegisterPage = ({onRegister}) => {
     return (
         <>
+        <div className="registercontainer">
         <RegisterContainer onRegister={onRegister} />
+        </div>
         </>
     )
 }
