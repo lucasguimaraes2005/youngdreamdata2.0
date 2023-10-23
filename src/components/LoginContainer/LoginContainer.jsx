@@ -18,6 +18,7 @@ export const LoginContainer = ({users}) => {
     const handleLogin = (username, password) => {
         const user = users.find((user) => user.username === username && user.password === password);
         if (user) {
+            localStorage.setItem('username', username)
             navigate('/dashboard')
             toast.success('Login realizado com sucesso!');
         }

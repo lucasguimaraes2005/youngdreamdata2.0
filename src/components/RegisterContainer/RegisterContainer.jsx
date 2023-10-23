@@ -15,6 +15,12 @@ export const RegisterContainer = ({onRegister}) => {
 
     const handleSubmit = (event) => {
         event.preventDefault()
+
+        if (!name || !sex || !email || !age || !phone || !guardian) {
+            toast.error('Por favor, preencha todos os campos.')
+            return
+        }
+
         onRegister(name, sex, email, age, phone, guardian);
         toast.success('Estudante cadastrado com sucesso!');
     }
@@ -34,6 +40,7 @@ export const RegisterContainer = ({onRegister}) => {
                     <input type="text" placeholder="Telefone" onChange={(e) => setPhone(e.target.value)}/>
                     <input type="text" placeholder="Nome do responsável" onChange={(e) => setGuardian(e.target.value)}/>
                     <button type="submit">Registrar</button>
+                    <button onClick={() => navigate('/dashboard')}>Voltar</button>
                 </form>
             </section>
         </>

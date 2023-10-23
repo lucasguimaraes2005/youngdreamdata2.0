@@ -1,10 +1,12 @@
 export const DashboardContainer = ({students, onDelete}) => {
 
-
+    const username = localStorage.getItem('username')
 
     return (
             <>
+            
             <div className="dashboardcontainer">
+            <h1>Bem vindo, {username}</h1>
                 <ul>
                 {students.map((student, index) => (
                     <li key={index}>
