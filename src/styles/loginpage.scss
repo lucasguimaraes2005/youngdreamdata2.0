@@ -1,7 +1,11 @@
+
+
+
 .logincontainer {
-    height: 100%;
     display: flex;
     align-items: row;
+    height: 100vh;
+    width: 100vw;
 
     #imgsection {
         background-image: url('https://media.discordapp.net/attachments/1145484562353356810/1165702284848660550/Design_sem_nome_1.png?ex=6547cfda&is=65355ada&hm=bbd45194fa1c922fc1f6f0f200b52c2cdaec6c73c51ac414f8976efce563748f&=&width=417&height=556');
@@ -16,7 +20,7 @@
         width: 50%;
         margin: 0;
         padding: 0;
-        height: 750px;
+        height: 100%;
         background-color: var(--color-3);
 
         form {

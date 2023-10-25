@@ -60,7 +60,9 @@ export const RoutesMain = () => {
         <>
 
             <Routes>
+
                 <Route path="/" element={<LoginPage users={users}/>}></Route>
+
                 <Route path="/register" element={<RegisterPage onRegister={handleRegister}/>}></Route>
                 <Route path="/dashboard" element={<Dashboard students={studentList} onDelete={handleDelete}/>}></Route>
             </Routes>
