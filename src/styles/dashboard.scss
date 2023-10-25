@@ -98,3 +98,34 @@ header {
         }
     }
     }
+
+    @media (max-width: 768px) {
+        header {
+            flex-direction: row;
+            height: auto;
+            padding: 10px;
+
+            div {
+                width: 100%;
+                justify-content: space-around;
+            }
+
+            h1, button {
+                margin-left: 0;
+                margin-right: 0;
+            }
+        }
+
+        .dashboardcontainer {
+            ul {
+                flex-direction: column;
+                align-items: center;
+                margin-left: 0;
+                background-color: var(--color-4);
+            }
+
+            li {
+                width: 80%;
+            }
+        }
+    }

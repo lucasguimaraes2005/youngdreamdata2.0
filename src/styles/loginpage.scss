@@ -71,4 +71,19 @@
     }
 }
 
+@media (max-width: 768px) {
+    .logincontainer {
+        flex-direction: column;
+
+        section {
+            width: 100%;
+            height: 50%;
+
+            form {
+                margin-bottom: 10%;
+            }
+        }
+    }
+}
+
 
