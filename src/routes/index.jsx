@@ -26,10 +26,6 @@ const users = [
     { name: 'Lucas', sex: 'Homem', email: 'lucas@mail.com', age: '17', phone: '(27) 1234-5678', guardian: 'Paulo'},
     { name: 'Luana', sex: 'Mulher', email: 'luana@mail.com', age: '18', phone: '(27) 2345-6789', guardian: 'Maria'},
     { name: 'Gabriel', sex: 'Homem', email: 'gabriel@mail.com', age: '19', phone: '(27) 3456-7890', guardian: 'João'},
-    { name: 'Gabriela', sex: 'Mulher', email: 'gabriela@mail.com', age: '20', phone: '(27) 4567-8901', guardian: 'Ana'},
-    { name: 'Rafael', sex: 'Homem', email: 'rafael@mail.com', age: '21', phone: '(27) 5678-9012', guardian: 'Carlos'},
-    { name: 'Rafaela', sex: 'Mulher', email: 'rafaela@mail.com', age: '22', phone: '(27) 6789-0123', guardian: 'Fernanda'},
-    { name: 'Alex', sex: 'Homem', email: 'alex@mail.com', age: '23', phone: '(27) 7890-1234', guardian: 'Roberto'}
 
   ];
 
