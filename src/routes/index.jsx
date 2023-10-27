@@ -7,9 +7,12 @@ import { useEffect, useState } from "react"
 
 const users = [
     { username: 'admin', password: 'admin123'},
-    { username: 'lucas', password: 'lucas123'},
-    { username: 'mateus', password: 'mateus123'},
-    { username: 'renan', password: 'renan123'},
+    { username: 'Lucas Guimarães', password: 'lucas123'},
+    { username: 'Mateus', password: 'mateus123'},
+    { username: 'Renan', password: 'renan123'},
+    { username: 'Hyan', password: 'hyan123'},
+    { username: 'Sthevan', password: 'sthevan123'},
+    { username: 'Vito', password: 'Vito123'},
   ]
 
   const students = [
@@ -19,7 +22,15 @@ const users = [
     { name: 'Ana', sex: 'Mulher', email: 'ana@mail.com', age: '13', phone: '(27) 2263-9430', guardian: 'Maria'},
     { name: 'Carlos', sex: 'Homem', email: 'carlos@mail.com', age: '14', phone: '(27) 3180-8621', guardian: 'Roberto'},
     { name: 'Fernanda', sex: 'Mulher', email: 'fernanda@mail.com', age: '15', phone: '(27) 3371-2333', guardian: 'Juliana'},
-    { name: 'Roberto', sex: 'Homem', email: 'roberto@mail.com', age: '16', phone: '(27) 3773-3481', guardian: 'Carlos'}
+    { name: 'Roberto', sex: 'Homem', email: 'roberto@mail.com', age: '16', phone: '(27) 3773-3481', guardian: 'Carlos'},
+    { name: 'Lucas', sex: 'Homem', email: 'lucas@mail.com', age: '17', phone: '(27) 1234-5678', guardian: 'Paulo'},
+    { name: 'Luana', sex: 'Mulher', email: 'luana@mail.com', age: '18', phone: '(27) 2345-6789', guardian: 'Maria'},
+    { name: 'Gabriel', sex: 'Homem', email: 'gabriel@mail.com', age: '19', phone: '(27) 3456-7890', guardian: 'João'},
+    { name: 'Gabriela', sex: 'Mulher', email: 'gabriela@mail.com', age: '20', phone: '(27) 4567-8901', guardian: 'Ana'},
+    { name: 'Rafael', sex: 'Homem', email: 'rafael@mail.com', age: '21', phone: '(27) 5678-9012', guardian: 'Carlos'},
+    { name: 'Rafaela', sex: 'Mulher', email: 'rafaela@mail.com', age: '22', phone: '(27) 6789-0123', guardian: 'Fernanda'},
+    { name: 'Alex', sex: 'Homem', email: 'alex@mail.com', age: '23', phone: '(27) 7890-1234', guardian: 'Roberto'}
+
   ];
 
 
